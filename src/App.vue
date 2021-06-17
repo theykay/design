@@ -1,6 +1,7 @@
 <template>
 <!-- dynamically update header title depending on page location -->
   <Header />
+  <router-view></router-view>
   <Footer />
 </template>
 

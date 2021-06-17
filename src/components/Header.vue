@@ -5,12 +5,18 @@
 </template>
 
 <script>
+import { computed } from '@vue/runtime-core';
 export default {
   name: 'Header',
-  props: {
-    title: {
-      type: String,
-      default: 'portfolio',
+  // props: {
+  //   title: {
+  //     type: String,
+  //     default: 'portfolio',
+  //   }
+  // },
+  computed: {
+    title: function() {
+      return this.$route.meta.title;
     }
   }
 };
@@ -24,7 +30,7 @@ export default {
     margin-bottom: 20px;
     padding: 1rem;
     font-size: 2rem;
-    background: styles.$palepink;
+    background: styles.$pink;
     color: styles.$darkpink;
   }
 </style>
