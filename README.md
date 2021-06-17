@@ -16,11 +16,11 @@ My design portfolio ✌
 * [License](#license)
 
 ## About
-Place for people to learn about me and various projects I've worked on, including web apps and handmade products.\
-Site built using ReactJS, styled with SCSS, hosted on Netlify.
+Place for people to learn about me and various projects I've worked on, including web apps, experiences, and handmade products.\
+Site built using Vue.js, styled with SCSS, hosted on Netlify.
 
 ## Technologies
-* ReactJS
+* Vue.js
 * CSS3
 * HTML5
 * SCSS
@@ -29,14 +29,13 @@ Site built using ReactJS, styled with SCSS, hosted on Netlify.
 * Express
 
 ## Links
-[Site](https://www.theykay.dev)\
-[Repository](https://github.com/theykay/design)\
-(If I'm working on a newer version, it'll be [here](https://theykay.github.io/design)!)
+[Site](https://www.theykaydesign.com)\
+[Repository](https://github.com/theykay/design)
 
 ## Contact
 Follow my work or get in touch!\
 Github: [theykay](https://github.com/theykay)\
-Email: [murraykyleb@gmail.com](mailto:murraykyleb@gmail.com)
+Email: [KayBMurray@gmail.com](mailto:KayBMurray@gmail.com)
 
 ## License
 This project is covered by the [MIT](https://choosealicense.com/licenses/mit/) license

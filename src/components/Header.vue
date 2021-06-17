@@ -24,7 +24,7 @@ export default {
     margin-bottom: 20px;
     padding: 1rem;
     font-size: 2rem;
-    background: styles.$empink;
+    background: styles.$palepink;
     color: styles.$darkpink;
   }
 </style>

@@ -14,7 +14,7 @@ export default {
   footer {
     position: absolute;
     bottom: 0;
-    background: styles.$empink;
+    color: styles.$darkpink;
     width: 100%;
     padding: 0.25rem;
     font-size: 1rem;
