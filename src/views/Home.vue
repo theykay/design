@@ -35,7 +35,6 @@ ul {
 li {
   width: 100%;
   height: 5rem;
-  background: red;
   @include styles.md {
 
   }
