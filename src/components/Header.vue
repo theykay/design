@@ -27,7 +27,6 @@ export default {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 20px;
     padding: 1rem;
     font-size: 2rem;
     background: styles.$pink;

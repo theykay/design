@@ -40,7 +40,11 @@ li {
   }
 }
 .about {
-  background: lightgreen;
+  background-image: url('../assets/images/amongUs.png');
+  background-color: lightgrey;
+  background-position: center;
+  background-blend-mode: screen;
+  overflow: hidden;
 }
 .apps {
   background: orange;
