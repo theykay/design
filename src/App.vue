@@ -1,15 +1,17 @@
 <template>
 <!-- dynamically update header title depending on page location -->
-  <Header title="task tracker"/>
+  <Header />
+  <Footer />
 </template>
 
 <script>
-import { Header } from './components';
+import { Header, Footer } from './components';
 
 export default {
   name: 'App',
   components: {
-    Header
+    Header,
+    Footer
   }
 }
 </script>
@@ -23,5 +25,6 @@ export default {
   color: #2c3e50;
   padding: 0;
   margin: 0;
+  font-family: styles.$fontFancy;
 }
 </style>

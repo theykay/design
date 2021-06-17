@@ -10,7 +10,7 @@ export default {
   props: {
     title: {
       type: String,
-      default: 'hello world',
+      default: 'portfolio',
     }
   }
 };
@@ -24,7 +24,6 @@ export default {
     margin-bottom: 20px;
     padding: 1rem;
     font-size: 2rem;
-    font-family: styles.$fontFancy;
     background: styles.$empink;
     color: styles.$darkpink;
   }
