@@ -34,10 +34,12 @@ ul {
 }
 li {
   width: 100%;
-  height: 5rem;
-  @include styles.md {
-
-  }
+  height: 20rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  font-weight: bold;
 }
 .about {
   background-image: url('../assets/images/amongUs.png');
@@ -45,14 +47,58 @@ li {
   background-position: center;
   background-blend-mode: screen;
   overflow: hidden;
+  @include styles.sm {
+    height: 10rem;
+    transition: all .2s ease-in-out;
+    &:hover {
+      height: 20rem;
+      background-color: #f2f2f2;
+    }
+  }
 }
 .apps {
-  background: orange;
+  background-image: url('../assets/images/amongUs.png');
+  background-color: lightgrey;
+  background-position: center;
+  background-blend-mode: screen;
+  overflow: hidden;
+  @include styles.sm {
+    height: 10rem;
+    transition: all .2s ease-in-out;
+    &:hover {
+      height: 20rem;
+      background-color: #f2f2f2;
+    }
+  }
 }
 .ux {
-  background: plum;
+  background-image: url('../assets/images/amongUs.png');
+  background-color: lightgrey;
+  background-position: center;
+  background-blend-mode: screen;
+  overflow: hidden;
+  @include styles.sm {
+    height: 10rem;
+    transition: all .2s ease-in-out;
+    &:hover {
+      height: 20rem;
+      background-color: #f2f2f2;
+    }
+  }
 }
 .handmade {
-  background: cyan;
+  background-image: url('../assets/images/amongUs.png');
+  background-color: lightgrey;
+  background-position: center;
+  background-blend-mode: screen;
+  overflow: hidden;
+  @include styles.sm {
+    height: 10rem;
+    transition: all .2s ease-in-out;
+    &:hover {
+      height: 20rem;
+      background-color: #f2f2f2;
+    }
+  }
 }
 </style>

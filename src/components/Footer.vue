@@ -12,7 +12,7 @@ export default {
 
 <style scoped lang="scss">
   footer {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     color: styles.$darkpink;
     width: 100%;
