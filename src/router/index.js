@@ -7,7 +7,7 @@ const routes = [
     name: 'Home',
     component: Home,
     meta: {
-      title: 'Home'
+      title: 'home'
     }
   },
   {
@@ -15,7 +15,7 @@ const routes = [
     name: 'About',
     component: About,
     meta: {
-      title: 'About Me'
+      title: 'about me'
     }
   },
   {
@@ -23,7 +23,7 @@ const routes = [
     name: 'Apps',
     component: Apps,
     meta: {
-      title: 'Apps'
+      title: 'apps'
     }
   },
   {
@@ -31,7 +31,7 @@ const routes = [
     name: 'Handmade',
     component: Handmade,
     meta: {
-      title: 'Handmade'
+      title: 'handmade'
     }
   },
   {
@@ -39,7 +39,7 @@ const routes = [
     name: 'Resume',
     component: Resume,
     meta: {
-      title: 'Resume'
+      title: 'resume'
     }
   },
   {
@@ -47,7 +47,7 @@ const routes = [
     name: 'UX',
     component: UX,
     meta: {
-      title: 'UX'
+      title: 'ux'
     }
   },
 ];

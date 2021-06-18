@@ -1,5 +1,6 @@
 <template>
   <header>
+    <h1>kay murray</h1>
     <h1>{{ title }}</h1>
   </header>
 </template>
@@ -29,6 +30,7 @@ export default {
     align-items: center;
     padding: 1rem;
     font-size: 2rem;
+    margin-bottom: 1rem;
     background: styles.$pink;
     color: styles.$darkpink;
   }
