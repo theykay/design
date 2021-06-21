@@ -5,10 +5,7 @@ import {
   Handmade,
   Home,
   Resume,
-  UX,
-  ProjectWeb,
-  ProjectHand,
-  ProjectUX
+  UX
 } from '../views';
 
 const routes = [
@@ -47,23 +44,9 @@ const routes = [
     }
   },
   {
-    path: '/apps/:projectName',
-    component: ProjectWeb,
-    meta: {
-      title: 'apps'
-    }
-  },
-  {
     path: '/handmade',
     name: 'Handmade',
     component: Handmade,
-    meta: {
-      title: 'handmade'
-    }
-  },
-  {
-    path: '/handmade/:projectName',
-    component: ProjectHand,
     meta: {
       title: 'handmade'
     }
@@ -76,13 +59,6 @@ const routes = [
       title: 'ux'
     }
   },
-  {
-    path: '/ux/:projectName',
-    component: ProjectUX,
-    meta: {
-      title: 'UX'
-    }
-  }
 ];
 
 const router = createRouter({
