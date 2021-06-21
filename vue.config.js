@@ -5,5 +5,5 @@ module.exports = {
         prependData: '@use "@/styles/main.scss" as styles;'
       }
     }
-  }
+  },
 }
