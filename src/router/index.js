@@ -1,5 +1,15 @@
 import { createRouter, createWebHistory } from 'vue-router';
-import { About, Apps, Handmade, Home, Resume, UX } from '../views';
+import {
+  About,
+  Apps,
+  Handmade,
+  Home,
+  Resume,
+  UX,
+  ProjectWeb,
+  ProjectHand,
+  ProjectUX
+} from '../views';
 
 const routes = [
   {
@@ -16,12 +26,29 @@ const routes = [
     component: About,
     meta: {
       title: 'about me'
-    }
+    },
+    children: [
+      {
+        path: '/resume',
+        name: 'Resume',
+        component: Resume,
+        meta: {
+          title: 'resume'
+        }
+      },
+    ]
   },
   {
     path: '/apps',
     name: 'Apps',
     component: Apps,
+    meta: {
+      title: 'apps'
+    }
+  },
+  {
+    path: '/apps/:projectName',
+    component: ProjectWeb,
     meta: {
       title: 'apps'
     }
@@ -35,11 +62,10 @@ const routes = [
     }
   },
   {
-    path: '/resume',
-    name: 'Resume',
-    component: Resume,
+    path: '/handmade/:projectName',
+    component: ProjectHand,
     meta: {
-      title: 'resume'
+      title: 'handmade'
     }
   },
   {
@@ -50,6 +76,13 @@ const routes = [
       title: 'ux'
     }
   },
+  {
+    path: '/ux/:projectName',
+    component: ProjectUX,
+    meta: {
+      title: 'UX'
+    }
+  }
 ];
 
 const router = createRouter({

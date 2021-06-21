@@ -1,6 +1,5 @@
 <template>
-  <h1>apps</h1>
-  <ProjectTrigger v-for="project in projects" :key="project.title" :project="project" />
+  <ProjectTrigger v-for="project in projects" :key="project.name" :project="project" />
 </template>
 
 <script>
@@ -15,8 +14,9 @@ export default {
     return {
       projects: [
         {
+          cover: '../assets/images/apps/CoLab.png',
           images: ["../assets/images/apps/CoLab.png"],
-          title: "CoLab",
+          name: "CoLab",
           info:
             "Way to connect individuals looking to collaborate with others in their profession. Currently focused on musicians.",
           media: ["ReactJS", "Express.js", "Node.js", "MongoDB"],
@@ -24,8 +24,9 @@ export default {
           repo: "https://github.com/theykay/CoLab",
         },
         {
+          cover: "../assets/images/apps/amongUs.png",
           images: ["../assets/images/apps/amongUs.png"],
-          title: "The Smartest Among Us",
+          name: "The Smartest Among Us",
           info:
             "Web app to play quizzes. Play randomly-generated quizzes, play quizzes with global score leader-boards, signup and login to create your own quizzes to share with friends.",
           media: ["SQL", "sequelize", "Handlebars"],
@@ -33,16 +34,18 @@ export default {
           repo: "https://github.com/theykay/The-Smartest-Among-Us",
         },
         {
+          cover: "../assets/images/apps/bookVsMovie.png",
           images: ["../assets/images/apps/bookVsMovie.png"],
-          title: "Book vs Movie",
+          name: "Book vs Movie",
           info: "Compare ratings between a book and the movie based on it",
           media: ["goodreads API", "omdb API"],
           site: "https://theykay.github.io/Book-vs-Movie/",
           repo: "https://github.com/theykay/Book-vs-Movie",
         },
         {
+          cover: "../assets/images/apps/scheduler.png",
           images: ["../assets/images/apps/scheduler.png"],
-          title: "Scheduler",
+          name: "Scheduler",
           info:
             "Generates a schedule that displays hour blocks based on user-defined start and end times. User can submit text in each hour slot that persists throughout the day. Entries only persist through end of day",
           media: ["Bootstrap", "jQuery"],
@@ -50,8 +53,9 @@ export default {
           repo: "https://github.com/theykay/scheduler",
         },
         {
+          cover: "../assets/images/apps/weather.png",
           images: ["../assets/images/apps/weather.png"],
-          title: "Weather Forecast",
+          name: "Weather Forecast",
           info:
             "Weather app that shows current weather, 5-day forecast and saves most recent searches for easy access",
           media: ["Bootstrap", "ajax", "jQuery"],

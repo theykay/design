@@ -4,3 +4,6 @@ export { default as Handmade } from './Handmade';
 export { default as Home } from './Home';
 export { default as Resume } from './Resume';
 export { default as UX } from './UX';
+export { default as ProjectWeb } from './ProjectWeb';
+export { default as ProjectHand } from './ProjectHand';
+export { default as ProjectUX } from './ProjectUX';
