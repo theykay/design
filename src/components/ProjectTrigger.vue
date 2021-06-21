@@ -1,12 +1,12 @@
 <template>
-  <section class="web-app">
+  <section>
 
   </section>
 </template>
 
 <script>
 export default {
-  name: 'AppProject',
+  name: 'ProjectTrigger',
   props: {
     project: Object
   }

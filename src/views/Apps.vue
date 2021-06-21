@@ -1,15 +1,15 @@
 <template>
   <h1>apps</h1>
-  <AppProject v-for="project in projects" :key="project.title" :project="project" />
+  <ProjectTrigger v-for="project in projects" :key="project.title" :project="project" />
 </template>
 
 <script>
-import { AppProject } from "../components";
+import { ProjectTrigger } from "../components";
 
 export default {
   name: "Apps",
   components: {
-    AppProject,
+    ProjectTrigger,
   },
   data() {
     return {
