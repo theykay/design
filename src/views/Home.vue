@@ -40,65 +40,30 @@ li {
   align-items: center;
   font-size: 3rem;
   font-weight: bold;
+  background-color: lightgrey;
+  background-position: center;
+  background-blend-mode: screen;
+  overflow: hidden;
+  @include styles.sm {
+    height: 10rem;
+    transition: all .2s ease-in-out;
+    &:hover {
+      height: 20rem;
+      // decide what to do to affect background image - either wash out, or make more visible
+      background-color: rgba(256, 256, 256, 0.75);
+    }
+  }
 }
 .about {
   background-image: url('../assets/images/amongUs.png');
-  background-color: lightgrey;
-  background-position: center;
-  background-blend-mode: screen;
-  overflow: hidden;
-  @include styles.sm {
-    height: 10rem;
-    transition: all .2s ease-in-out;
-    &:hover {
-      height: 20rem;
-      background-color: #f2f2f2;
-    }
-  }
 }
 .apps {
   background-image: url('../assets/images/amongUs.png');
-  background-color: lightgrey;
-  background-position: center;
-  background-blend-mode: screen;
-  overflow: hidden;
-  @include styles.sm {
-    height: 10rem;
-    transition: all .2s ease-in-out;
-    &:hover {
-      height: 20rem;
-      background-color: #f2f2f2;
-    }
-  }
 }
 .ux {
   background-image: url('../assets/images/amongUs.png');
-  background-color: lightgrey;
-  background-position: center;
-  background-blend-mode: screen;
-  overflow: hidden;
-  @include styles.sm {
-    height: 10rem;
-    transition: all .2s ease-in-out;
-    &:hover {
-      height: 20rem;
-      background-color: #f2f2f2;
-    }
-  }
 }
 .handmade {
   background-image: url('../assets/images/amongUs.png');
-  background-color: lightgrey;
-  background-position: center;
-  background-blend-mode: screen;
-  overflow: hidden;
-  @include styles.sm {
-    height: 10rem;
-    transition: all .2s ease-in-out;
-    &:hover {
-      height: 20rem;
-      background-color: #f2f2f2;
-    }
-  }
 }
 </style>
