@@ -1,20 +1,22 @@
 <template>
-<!-- dynamically update header title depending on page location -->
+  <!-- dynamically update header title depending on page location -->
   <Header />
-  <router-view></router-view>
+  <div id="view">
+    <router-view></router-view>
+  </div>
   <Footer />
 </template>
 
 <script>
-import { Header, Footer } from './components';
+import { Header, Footer } from "./components";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
     Header,
-    Footer
-  }
-}
+    Footer,
+  },
+};
 </script>
 
 <style lang="scss">
@@ -26,7 +28,11 @@ export default {
   color: #2c3e50;
   padding: 0;
   margin: 0;
-  margin-bottom: 1.5rem;
   font-family: styles.$fontFancy;
+  position: relative;
+  min-height: 100vh;
+}
+#view {
+  padding-bottom: 2.5rem;
 }
 </style>
