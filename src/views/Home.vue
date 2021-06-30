@@ -51,6 +51,7 @@ li {
       height: 20rem;
       // decide what to do to affect background image - either wash out, or make more visible
       background-color: rgba(256, 256, 256, 0.75);
+      cursor: pointer;
     }
   }
 }
