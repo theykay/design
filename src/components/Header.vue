@@ -1,6 +1,6 @@
 <template>
   <header>
-    <h1>kay murray</h1>
+    <h1>theyKay Design</h1>
     <h1>{{ title }}</h1>
   </header>
 </template>
