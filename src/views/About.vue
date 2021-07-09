@@ -1,5 +1,6 @@
 <template>
   <section>
+    <router-link to="/">home</router-link>
     <h1>About</h1>
     <img src="../assets/images/profile.jpeg" alt="me artistically draped around an overturned chair">
     <p>I'm Kay - a web developer, UX designer, and maker.</p>
