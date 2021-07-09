@@ -28,4 +28,28 @@ export default {
 };
 </script>
 
-<style></style>
+<style scoped lang="scss">
+ul {
+  width: 10rem;
+  margin: .5rem auto .5rem 1rem;
+  @include styles.sm {
+    display: flex;
+    flex-direction: column;
+    // justify-content: flex-start;
+    align-items: flex-start;
+  }
+}
+li {
+  width: 100%;
+  padding: 0 .5rem;
+  line-height: 1.5;
+  font-size: 1.5rem;
+  text-align: left;
+  color: styles.$darkpink;
+  @include styles.sm {
+    &:hover {
+      background-color: styles.$pink;
+    }
+  }
+}
+</style>
