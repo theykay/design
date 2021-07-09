@@ -1,5 +1,8 @@
 <template>
-  <ProjectTrigger v-for="project in projects" :key="project.name" :project="project" />
+  <ul>
+    <li v-for="project in projects" :key="trimName(project.name)">{{ project.name }}</li>
+  </ul>
+  <ProjectTrigger v-for="project in projects" :key="trimName(project.name)" :project="project" />
 </template>
 
 <script>
@@ -15,6 +18,12 @@ export default {
     return {
       projects: projectInfo["apps"]
     };
+  },
+  methods: {
+    trimName() {
+      const reg = new RegExp(/\s/g);
+      return name.replace(reg, '').toLowerCase();
+    }
   }
 };
 </script>

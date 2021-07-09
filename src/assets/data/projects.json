@@ -44,7 +44,7 @@
     },
     {
       "images": [
-        "assets/images/apps/scheduler.png"
+        "assets/images/apps/scheduler.gif"
       ],
       "name": "Scheduler",
       "info": "Generates a schedule that displays hour blocks based on user-defined start and end times. User can submit text in each hour slot that persists throughout the day. Entries only persist through end of day",

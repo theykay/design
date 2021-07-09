@@ -1,7 +1,7 @@
 <template>
-  <section :id="trimName(project.name)" class="app-project" @click="expand(project)">
+  <section :id="trimName(project.name)" @click="expand(project)">
     <h1>{{ project.name }}</h1>
-    <img :src="imgPath(project.images[0])" alt="">
+    <img :src="imgPath(project.images[0])" :alt="alt(project)">
   </section>
 </template>
 
@@ -21,13 +21,20 @@ export default {
     },
     imgPath(path) {
       return require("@/" + path)
+    },
+    alt(project) {
+      return `screen grab of ${project.name} app`;
     }
   }
 };
 </script>
 
 <style scoped lang="scss">
-.app-project {
-
+section {
+  
+}
+img {
+  width: 100%;
+  height: auto;
 }
 </style>
