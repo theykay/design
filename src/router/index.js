@@ -23,17 +23,15 @@ const routes = [
     component: About,
     meta: {
       title: 'about me'
-    },
-    children: [
-      {
-        path: '/resume',
-        name: 'Resume',
-        component: Resume,
-        meta: {
-          title: 'resume'
-        }
-      },
-    ]
+    }
+  },
+  {
+    path: '/resume',
+    name: 'Resume',
+    component: Resume,
+    meta: {
+      title: 'resume'
+    }
   },
   {
     path: '/apps',
