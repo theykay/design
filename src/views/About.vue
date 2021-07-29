@@ -1,11 +1,23 @@
 <template>
   <section>
-    <router-link to="/">home</router-link>
+    <div className="home-link">
+      <router-link to="/">home</router-link>
+    </div>
     <h1>About</h1>
-    <img src="../assets/images/profile.jpeg" alt="me artistically draped around an overturned chair">
+    <img
+      src="../assets/images/profile.jpeg"
+      alt="me artistically draped around an overturned chair"
+    />
     <p>I'm Kay - a web developer, UX designer, and maker.</p>
-    <p>I'm Kay, a web developer working to make accessible applications. I have a BFA in Industrial Design, and a Full Stack Web Development certificate. I'm excited about continuing to learn and implement principles of accessibility and universal design to build applications with a more diverse range of users in mind.</p>
-    <p>Mainly I'm interested in making things, using anything from code to textiles.</p>
+    <p>
+      My main interest is building things - mainly web apps, clothes, and
+      furniture.
+    </p>
+    <p>
+      Eventually, I want to be working in Accessibility Design to help ensure
+      that the needs of disabled people are taken into account in the design of
+      everyday things.
+    </p>
     <router-link to="/resume">resume</router-link>
   </section>
 </template>
@@ -17,6 +29,10 @@ export default {
 </script>
 
 <style scoped lang="scss">
+.home-link {
+  padding: 1rem;
+}
+
 img {
   width: 10rem;
   height: auto;

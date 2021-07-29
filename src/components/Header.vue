@@ -1,7 +1,7 @@
 <template>
   <header>
-    <h1>theyKay Design</h1>
-    <h1>{{ title }}</h1>
+    <h1 className="site-name">theyKay Design</h1>
+    <h1 className="location">{{ title }}</h1>
   </header>
 </template>
 
@@ -32,5 +32,11 @@ export default {
     font-size: 2rem;
     background: styles.$pink;
     color: styles.$darkpink;
+  }
+  .site-name {
+    text-align: left;
+  }
+  .location {
+    text-align: right;
   }
 </style>
