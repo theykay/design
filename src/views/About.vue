@@ -1,6 +1,6 @@
 <template>
-  <section>
-    <div className="home-link">
+  <section className="top-parent">
+    <div className="in-page-link">
       <router-link to="/">home</router-link>
     </div>
     <h1>About</h1>
@@ -8,17 +8,21 @@
       src="../assets/images/profile.jpeg"
       alt="me artistically draped around an overturned chair"
     />
-    <p>I'm Kay - a web developer, UX designer, and maker.</p>
-    <p>
-      My main interest is building things - mainly web apps, clothes, and
-      furniture.
-    </p>
-    <p>
-      Eventually, I want to be working in Accessibility Design to help ensure
-      that the needs of disabled people are taken into account in the design of
-      everyday things.
-    </p>
-    <router-link to="/resume">resume</router-link>
+    <section>
+      <p>I'm Kay—a web developer, designer, and maker.</p>
+      <p>
+        My main interest is building things - mainly web apps, clothes, and
+        furniture.
+      </p>
+      <p>
+        Eventually, I want to be working in Accessibility Design to help ensure
+        that the needs of disabled people are taken into account in the design
+        of everyday things.
+      </p>
+    </section>
+    <div className="in-page-link">
+      <router-link to="/resume">resume</router-link>
+    </div>
   </section>
 </template>
 
@@ -29,13 +33,23 @@ export default {
 </script>
 
 <style scoped lang="scss">
-.home-link {
-  padding: 1rem;
+h1 {
+  font-size: 2rem;
+  margin: 1rem 0;
 }
-
 img {
   width: 10rem;
   height: auto;
   border-radius: 50%;
+  margin-bottom: 1rem;
+}
+.top-parent {
+  padding: 1rem;
+}
+p {
+  text-align: left;
+}
+.in-page-link:last-child {
+  margin-top: 1rem;
 }
 </style>
