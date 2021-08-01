@@ -16,7 +16,7 @@ export default {
     bottom: 0;
     color: styles.$darkpink;
     background: styles.$pink;
-    width: 100%;
+    width: calc(100vw - .5rem);
     height: 2rem;
     padding: 0.25rem;
     font-size: 1rem;

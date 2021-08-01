@@ -29,10 +29,12 @@ export default {
   padding: 0;
   margin: 0;
   font-family: styles.$fontFancy;
-  position: relative;
+  // position: relative;
+  width: 100vw;
   min-height: 100vh;
 }
 #view {
   padding-bottom: 2.5rem;
+  width: 100vw;
 }
 </style>

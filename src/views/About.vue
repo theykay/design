@@ -16,8 +16,8 @@
       </p>
       <p>
         Eventually, I want to be working in Accessibility Design to help ensure
-        that the needs of people with disabilities are taken into account in the design
-        of everyday things.
+        that the needs of people with disabilities are taken into account in the
+        design of everyday things.
       </p>
     </section>
     <div className="in-page-link">
@@ -49,7 +49,30 @@ img {
 p {
   text-align: left;
 }
-.in-page-link:last-child {
-  margin-top: 1rem;
+.in-page-link {
+  &:last-child {
+    margin-top: 1rem;
+  }
+}
+a {
+  display: block;
+  
+  color: styles.$darkpink;
+  padding: .25rem;
+  border: 2px solid styles.$empink;
+  border-radius: 1rem;
+  line-height: 1;
+  &:link {
+    background-color: white;
+  }
+  &:visited {
+    background-color: white;
+  }
+  &:hover {
+    background-color: white;
+  }
+  &:active {
+    background-color: white;
+  }
 }
 </style>

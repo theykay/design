@@ -25,6 +25,7 @@ export default {
 
 <style scoped lang="scss">
   header {
+    width: calc(100vw - 2rem);
     display: flex;
     justify-content: space-between;
     align-items: center;
