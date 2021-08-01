@@ -11,17 +11,17 @@
     <section>
       <p>I'm Kay—a web developer, designer, and maker.</p>
       <p>
-        My main interest is building things - mainly web apps, clothes, and
-        furniture.
+        My main interest is building things (mainly web apps, clothes, and
+        furniture)
       </p>
       <p>
         Eventually, I want to be working in Accessibility Design to help ensure
-        that the needs of disabled people are taken into account in the design
+        that the needs of people with disabilities are taken into account in the design
         of everyday things.
       </p>
     </section>
     <div className="in-page-link">
-      <router-link to="/resume">resume</router-link>
+      <a href="./images/kayMurrayResume.pdf" download>resume</a>
     </div>
   </section>
 </template>
