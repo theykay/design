@@ -46,13 +46,12 @@ export default {
 <style scoped lang="scss">
 h1 {
   font-size: 2rem;
-  margin: 1rem 0;
 }
 img {
   width: 10rem;
   height: auto;
   border-radius: 50%;
-  margin-bottom: 1rem;
+  margin: 1rem 0;
 }
 .top-parent {
   padding: 1rem;
@@ -66,7 +65,7 @@ p {
   }
 }
 a {
-  display: inline-block;
+  display: inline-flex;
   color: styles.$darkpink;
   padding: 0.5rem;
   border: 2px solid styles.$empink;
@@ -84,5 +83,10 @@ a {
   &:active {
     background-color: white;
   }
+}
+svg {
+  height: 1rem;
+  width: auto;
+  margin-right: .5rem;
 }
 </style>

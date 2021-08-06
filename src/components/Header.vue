@@ -23,7 +23,6 @@ export default {
       return this.$route.meta.title;
     },
     notHome: function() {
-      console.log(this.$route.meta.title);
       return this.$route.meta.title != "";
     },
   },
