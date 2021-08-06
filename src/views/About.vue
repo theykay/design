@@ -34,6 +34,17 @@
         resumé
       </a>
     </div>
+    <ul>
+      <li>
+        <a className="ex-link" href="https://github.com/theykay">github</a>
+      </li>
+      <li>
+        <a className="ex-link" href="https://www.linkedin.com/in/theykay">linkedin</a>
+      </li>
+      <li>
+        <a className="ex-link" href="mailto:kaybmurray@gmail.com">email</a>
+      </li>
+    </ul>
   </section>
 </template>
 
@@ -60,9 +71,7 @@ p {
   text-align: left;
 }
 .in-page-link {
-  &:last-child {
-    margin-top: 1rem;
-  }
+  margin-top: 1rem;
 }
 a {
   display: inline-flex;
@@ -87,6 +96,16 @@ a {
 svg {
   height: 1rem;
   width: auto;
-  margin-right: .5rem;
+  margin-right: 0.5rem;
+}
+ul {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  justify-content: space-around;
+}
+.ex-link {
+  border: none;
 }
 </style>
