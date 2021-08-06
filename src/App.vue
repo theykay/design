@@ -32,9 +32,11 @@ export default {
   // position: relative;
   width: 100vw;
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 #view {
-  padding-bottom: 2.5rem;
   width: 100vw;
+  flex: 1 0 auto;
 }
 </style>
