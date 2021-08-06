@@ -1,8 +1,5 @@
 <template>
   <section className="top-parent">
-    <div className="in-page-link">
-      <router-link to="/">home</router-link>
-    </div>
     <h1>About</h1>
     <img
       src="../assets/images/profile.jpeg"
