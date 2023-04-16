@@ -1,7 +1,7 @@
 import {
   Header,
   Footer,
-} from "elements";
+} from "../elements/index.js";
 
 const Root = () => {
   return (
