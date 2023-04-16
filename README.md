@@ -18,7 +18,6 @@ My portfolio ✌
 ## About
 Place for people to learn about me and various projects I've worked on, including web apps and handmade products.\
 Site built in React.js\
-Hosted on Netlify [here](https://kind-ritchie-a8f6c9.netlify.app/)
 
 ## Technologies
 * React.js
@@ -26,7 +25,7 @@ Hosted on Netlify [here](https://kind-ritchie-a8f6c9.netlify.app/)
 * SCSS
 
 ## Links
-[Site](https://kind-ritchie-a8f6c9.netlify.app/)\
+[Site]()\
 [Repository](https://github.com/theykay/design)
 
 ## Contact
