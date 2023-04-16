@@ -27,7 +27,7 @@ Hosted on Netlify [here](https://kind-ritchie-a8f6c9.netlify.app/)
 
 ## Links
 [Site](https://kind-ritchie-a8f6c9.netlify.app/)\
-[Repository](https://github.com/theykay/ux-portfolio)
+[Repository](https://github.com/theykay/design)
 
 ## Contact
 Follow my work or get in touch!\
@@ -35,4 +35,4 @@ Github: [theykay](https://github.com/theykay)\
 Email: [kaybmurray@gmail.com](mailto:kaybmurray@gmail.com)
 
 ## License
-This project is covered by the [MIT](https://choosealicense.com/licenses/mit/) license
+This project is covered by the [Unlicense](https://choosealicense.com/licenses/unlicense/)
